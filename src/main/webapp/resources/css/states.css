@@ -1,0 +1,117 @@
+/* Page Heading */
+
+.main-content h1{
+    font-size:28px;
+    color:#2c3e50;
+    margin-bottom:25px;
+}
+
+
+/* Add State Form */
+
+.main-content form{
+    background:#ffffff;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+    margin-bottom:30px;
+    display:flex;
+    gap:10px;
+    align-items:center;
+}
+
+
+/* Input Field */
+
+.main-content form input{
+    flex:1;
+    padding:10px 12px;
+    border:1px solid #ddd;
+    border-radius:6px;
+    font-size:14px;
+    transition:0.3s;
+}
+
+.main-content form input:focus{
+    border-color:#3498db;
+    outline:none;
+    box-shadow:0 0 5px rgba(52,152,219,0.3);
+}
+
+
+/* Add Button */
+
+.main-content form button{
+    background:#3498db;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:14px;
+    transition:0.3s;
+}
+
+.main-content form button:hover{
+    background:#2980b9;
+}
+
+
+/* Table Container */
+
+.table-container{
+    background:#ffffff;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+
+/* Table */
+
+.user-table{
+    width:100%;
+    border-collapse:collapse;
+    font-size:14px;
+}
+
+
+/* Table Header */
+
+.user-table thead{
+    background:#34495e;
+    color:white;
+}
+
+.user-table th{
+    padding:12px;
+    text-align:left;
+}
+
+
+/* Table Rows */
+
+.user-table td{
+    padding:12px;
+    border-bottom:1px solid #eee;
+}
+
+.user-table tr:hover{
+    background:#f7f9fb;
+}
+
+
+/* Delete Button */
+
+.btn.delete{
+    background:#e74c3c;
+    color:white;
+    padding:6px 12px;
+    border-radius:4px;
+    text-decoration:none;
+    font-size:13px;
+}
+
+.btn.delete:hover{
+    background:#c0392b;
+}

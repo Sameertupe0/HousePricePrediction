@@ -1,0 +1,171 @@
+/* PAGE TITLE */
+
+.main-content h1{
+margin-bottom:25px;
+font-size:28px;
+color:#2c3e50;
+}
+
+
+/* PROPERTY FORM */
+
+form{
+background:#ffffff;
+padding:25px;
+border-radius:10px;
+box-shadow:0 3px 10px rgba(0,0,0,0.08);
+margin-bottom:35px;
+max-width:800px;
+}
+
+
+/* LABEL */
+
+form label{
+font-weight:600;
+display:block;
+margin-bottom:6px;
+color:#333;
+}
+
+
+/* INPUT FIELDS */
+
+form input,
+form select{
+width:100%;
+padding:10px 12px;
+border:1px solid #ccc;
+border-radius:6px;
+font-size:14px;
+transition:0.2s;
+margin-bottom:15px;
+}
+
+
+/* INPUT FOCUS EFFECT */
+
+form input:focus,
+form select:focus{
+border-color:#3498db;
+outline:none;
+box-shadow:0 0 4px rgba(52,152,219,0.3);
+}
+
+
+/* SEARCH BOX */
+
+#searchLocation{
+width:70%;
+padding:10px;
+border:1px solid #ccc;
+border-radius:6px;
+margin-right:10px;
+}
+
+
+/* BUTTON */
+
+form button{
+background:#3498db;
+color:white;
+border:none;
+padding:10px 18px;
+border-radius:6px;
+cursor:pointer;
+font-size:14px;
+transition:0.3s;
+}
+
+form button:hover{
+background:#2980b9;
+}
+
+
+/* MAP */
+
+#map{
+margin-top:10px;
+border-radius:8px;
+border:1px solid #ddd;
+}
+
+
+/* PROPERTY TABLE */
+
+.table-container{
+margin-top:30px;
+}
+
+.user-table{
+width:100%;
+border-collapse:collapse;
+background:white;
+border-radius:8px;
+overflow:hidden;
+box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+
+/* TABLE HEADER */
+
+.user-table thead{
+background:#34495e;
+color:white;
+}
+
+.user-table th{
+padding:12px;
+font-size:14px;
+}
+
+
+/* TABLE ROW */
+
+.user-table td{
+padding:10px;
+text-align:center;
+border-bottom:1px solid #eee;
+font-size:14px;
+}
+
+
+/* HOVER EFFECT */
+
+.user-table tr:hover{
+background:#f7f9fb;
+}
+
+
+/* ACTION BUTTONS */
+
+.btn{
+padding:6px 12px;
+border-radius:5px;
+text-decoration:none;
+color:white;
+font-size:13px;
+margin-right:5px;
+}
+
+
+/* EDIT BUTTON */
+
+.btn.block{
+background:#f39c12;
+}
+
+.btn.block:hover{
+background:#d68910;
+}
+
+
+/* DELETE BUTTON */
+
+.btn.delete{
+background:#e74c3c;
+}
+
+.btn.delete:hover{
+background:#c0392b;
+}

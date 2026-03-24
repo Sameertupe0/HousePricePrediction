@@ -1,0 +1,122 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* BODY */
+body {
+    display: flex;
+    background: #f4f6f9;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    background: #1e293b;
+    color: white;
+    padding: 20px;
+    position: fixed;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+.sidebar ul li a:hover {
+    background: #334155;
+}
+
+/* MAIN */
+.main-content {
+    margin-left: 240px;
+    padding: 40px;
+    width: 100%;
+}
+
+/* FORM BOX */
+.search-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* 🔥 FORCE GRID LAYOUT */
+.form-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 15px;
+}
+
+/* FORM GROUP */
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* FULL WIDTH BUTTON */
+.full-width {
+    grid-column: span 2;
+}
+
+/* LABEL */
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* INPUT */
+.form-group input,
+.form-group select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* BUTTON */
+.search-btn {
+    padding: 10px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background: #1d4ed8;
+}
+
+/* RESULT */
+.result-box {
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+#priceResult {
+    font-size: 24px;
+    color: green;
+}
